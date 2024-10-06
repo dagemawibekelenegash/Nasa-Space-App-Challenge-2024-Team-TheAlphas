@@ -1,17 +1,57 @@
-.content-container {
-    display: flex; /* Use flexbox for horizontal layout */
-    height: 100vh; /* Full viewport height */
-  }
-  
-  .content {
-    flex-grow: 1; /* Allow content to take remaining space */
-    padding: 20px; /* Padding around content */
-  }
-  
-  .dashboard-section {
-    border: 1px solid #ccc; /* Optional border for each section */
-    padding: 15px; /* Padding inside each section */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #fff; /* White background for content */
-  }
-  
+.main-content {
+    flex-grow: 2; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%; 
+}
+
+.info-box {
+    background: #f9fafb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.info-box p {
+    color: #4b5563;
+}
+
+.wallet-box {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.wallet-box h3 {
+    font-size: 22px;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.wallet-box .card {
+    background: linear-gradient(135deg, #4a5568, #2d3748);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wallet-box .card p {
+    font-size: 16px;
+    margin: 5px 0;
+}

@@ -1,0 +1,40 @@
+.dashboard-container {
+    display: flex; 
+    height: 100vh; 
+}
+
+.sidebar {
+    width: 250px; 
+    background: #1f2937;
+    color: white; 
+    padding: 20px;
+}
+
+.content {
+    flex-grow: 1; 
+    padding: 20px;
+    background-color: #f9fafb; 
+}
+
+h2 {
+    margin-bottom: 20px; 
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0; 
+}
+
+.sidebar ul li a {
+    color: #d1d5db;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff; 
+}

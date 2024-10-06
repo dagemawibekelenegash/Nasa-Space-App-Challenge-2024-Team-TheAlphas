@@ -49,33 +49,33 @@ export default function About() {
         <div className="about-team-grid">
           <div className="about-team-member">
             <img src={team1} alt="Team Member 1" />
-            <h3>John Doe</h3>
-            <p>CEO & Founder</p>
+            <h3>Fraol Bacha Megersa</h3>
+            <p>Frontend Developer & Designer</p>
           </div>
           <div className="about-team-member">
             <img src={team2} alt="Team Member 2" />
-            <h3>Jane Smith</h3>
-            <p>Head of Operations</p>
+            <h3>Kaleab Yohannes Hilawie</h3>
+            <p>Lead Backend Developer</p>
           </div>
           <div className="about-team-member">
             <img src={team3} alt="Team Member 3" />
-            <h3>Michael Johnson</h3>
-            <p>Agricultural Specialist</p>
+            <h3>Abrham Yishak Yifat</h3>
+            <p>Frontend Developer and Data Analyst</p>
           </div>
           <div className="about-team-member">
             <img src={team4} alt="Team Member 4" />
-            <h3>Emily Davis</h3>
-            <p>Marketing Director</p>
+            <h3>Biruk Abza Geremew</h3>
+            <p>Data Analyst and Frontend Developer</p>
           </div>
           <div className="about-team-member">
             <img src={team5} alt="Team Member 5" />
-            <h3>Chris Brown</h3>
-            <p>Field Manager</p>
+            <h3>Dagemawi Bekele Negash</h3>
+            <p>Lead Frontend Developer</p>
           </div>
           <div className="about-team-member">
             <img src={team6} alt="Team Member 6" />
-            <h3>Sarah Wilson</h3>
-            <p>Quality Control Officer</p>
+            <h3>Yonatan Yishak Yifat</h3>
+            <p>Team Leader & Backend Developer</p>
           </div>
         </div>
       </section>

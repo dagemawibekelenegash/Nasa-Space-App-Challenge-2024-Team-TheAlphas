@@ -1,0 +1,173 @@
+.about-hero {
+  height: 100vh;
+  background: url('../../assets/images/img2.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hero-text h2 {
+  font-size: 24px;
+}
+
+.about-hero-text h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.about-hero-text p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-discover {
+  padding: 12px 25px;
+  background-color: #ffc107;
+  
+
+}
+.btn-discover:hover {
+  background-color: var(--hover-bg-color);
+  border-color: var(--main-bg-color); 
+}
+.about-container{
+  background-color: #2b3a24; 
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-intro-section {
+  display: flex;
+  max-width: 1100px;
+  background-color: #3e4f31; 
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.about-image-box {
+  position: relative;
+  width: 50%;
+}
+
+.about-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-project-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(43, 58, 36, 0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fffae5;
+  text-align: center;
+}
+
+.about-project-info h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-project-info p {
+  font-size: 16px;
+}
+
+.about-text-box {
+  padding: 30px;
+  width: 50%;
+}
+
+.about-text-box h1 {
+  font-size: 36px;
+  color: #fffae5; 
+}
+
+.about-text-box h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #c2d69e;
+}
+
+.about-text-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f2f5da;
+}
+
+.about-text-box ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.about-text-box ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.about-text-box ul li::before {
+  content: '✔️';
+  position: absolute;
+  left: 0;
+  color: #d1e15b;
+}
+
+.about-team-section {
+  padding: 50px 20px;
+  background-color: #3e4f31; 
+  text-align: center;
+}
+
+.about-team-section h2 {
+  font-size: 36px;
+  color: #ffc107;
+  margin-bottom: 40px;
+}
+
+.about-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.about-team-member {
+  background-color: #f2e1a9;
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.about-team-member:hover {
+  transform: scale(1.05);
+}
+
+.about-team-member img {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.about-team-member h3 {
+  font-size: 22px;
+  color: #2b3a24;
+  margin-bottom: 5px;
+}
+
+.about-team-member p {
+  font-size: 18px;
+  color: #3e4f31;
+}

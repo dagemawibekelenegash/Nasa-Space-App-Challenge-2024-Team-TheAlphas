@@ -5,6 +5,15 @@
     color: white;
     height: 100vh;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.sidebar.closed {
+    transform: translateX(-250px);
 }
 
 .sidebar h2 {
@@ -34,4 +43,43 @@
 .sidebar ul li a:hover {
     background-color: #374151;
     color: #f9fafb;
+}
+
+.sidebar-toggle {
+    position: fixed;
+    left: 250px;
+    top: 10px;
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: left 0.3s ease-in-out, background-color 0.3s;
+    z-index: 1001;
+}
+
+.sidebar-toggle:hover {
+    background-color: #374151;
+}
+
+.sidebar.closed + .sidebar-toggle {
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .sidebar-toggle {
+        left: auto;
+        right: 10px;
+    }
+    
+    .sidebar.closed + .sidebar-toggle {
+        left: auto;
+        right: 10px;
+    }
 }

@@ -12,35 +12,44 @@ export default function About() {
   return (
     <div>
       <section className="about-hero">
-        <div className="about-hero-text">
-          <h2>Original & Natural</h2>
-          <h1>Agriculture Matter<br />Good Production</h1>
-          <p>Disuse ecstatic and properly saw entirely sir why laughter endeavor.</p>
-          <a href="#" className="btn-discover">Discover More</a>
+        
+        <div class="about-hero-text">
+            <h2>Data-Driven & Sustainable</h2>
+            <h1>Empowering Agriculture<br/>Enhanced Crop Productivity</h1>
+            <p>Leveraging data-driven insights to make informed and strategic farming decisions</p>
+            <a href="#" class="btn-discover">Discover More</a>
         </div>
+
       </section>
 
       <div className="about-container">
         <div className="about-intro-section">
           <div className="about-image-box">
             <img src={img1} alt="Agriculture Field" />
-            <div className="about-project-info">
-              <h2>86,700</h2>
-              <p>Successfully Projects Completed</p>
+            
+            <div class="about-project-info">
+                   <h3>Globally</h3>
+                    <h2>50-70% of farmers</h2>
+                    <p>Benefit from such systems</p>
             </div>
+
           </div>
-          <div className="about-text-box">
-            <h1>Pure Agriculture and Organic Form</h1>
-            <h3>We're Leader in Agriculture Market</h3>
-            <p>
-              There are many variations of passages of available but the majority have suffered alteration in some form, by injected humour or randomised words even slightly believable.
-            </p>
-            <ul>
-              <li>Organic food contains more vitamins</li>
-              <li>Eat organic because supply meets demand</li>
-              <li>Organic food is never irradiated</li>
-            </ul>
-          </div>
+          
+          <div class="about-text-box">
+                <h1>Harvesting Innovation and Organic Growth</h1>
+
+                
+                <h3>Shaping the Future of Farming</h3>
+                <p>
+                  AgriFlow is a user-friendly web application designed to empower farmers by utilizing NASA's Earth observation data for improved water management and crop planning.
+                </p>
+                <ul>
+                    <li>Offers real-time dashboards with data on precipitation, soil moisture, and drought indices</li>
+                    <li>Combines satellite data with local insights and expert advice</li>
+                    <li>Tackles water scarcity and crop sustainability, boosting productivity and resilience</li>
+                </ul>
+            </div>
+
         </div>
       </div>
 
@@ -50,32 +59,32 @@ export default function About() {
           <div className="about-team-member">
             <img src={team1} alt="Team Member 1" />
             <h3>Fraol Bacha Megersa</h3>
-            <p>Frontend Developer & Designer</p>
+            <p>project manager, UI/UX Designer</p>
           </div>
           <div className="about-team-member">
             <img src={team2} alt="Team Member 2" />
             <h3>Kaleab Yohannes Hilawie</h3>
-            <p>Lead Backend Developer</p>
+            <p>Developer, Data Analyst</p>
           </div>
           <div className="about-team-member">
             <img src={team3} alt="Team Member 3" />
             <h3>Abrham Yishak Yifat</h3>
-            <p>Frontend Developer and Data Analyst</p>
+            <p>Developer, Data Analyst</p>
           </div>
           <div className="about-team-member">
             <img src={team4} alt="Team Member 4" />
             <h3>Biruk Abza Geremew</h3>
-            <p>Data Analyst and Frontend Developer</p>
+            <p>Data Analyst, Data Collection Specialist</p>
           </div>
           <div className="about-team-member">
             <img src={team5} alt="Team Member 5" />
             <h3>Dagemawi Bekele Negash</h3>
-            <p>Lead Frontend Developer</p>
+            <p>Lead Developer</p>
           </div>
           <div className="about-team-member">
             <img src={team6} alt="Team Member 6" />
             <h3>Yonatan Yishak Yifat</h3>
-            <p>Team Leader & Backend Developer</p>
+            <p>Data collection Specialist, Developer</p>
           </div>
         </div>
       </section>

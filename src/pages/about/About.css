@@ -7,9 +7,16 @@
   text-align: center;
 }
 
-.about-hero-text h2 {
-  font-size: 24px;
+
+
+.about-hero-text h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #fff
 }
+
+
 
 .about-hero-text h1 {
   font-size: 60px;
@@ -17,11 +24,14 @@
   font-weight: bold;
 }
 
+
 .about-hero-text p {
   font-size: 18px;
   margin-top: 20px;
   margin-bottom: 30px;
+   color: #fff;
 }
+
 
 .btn-discover {
   padding: 12px 25px;

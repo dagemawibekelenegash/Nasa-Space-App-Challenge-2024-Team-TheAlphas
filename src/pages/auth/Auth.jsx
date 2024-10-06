@@ -18,7 +18,7 @@ export default function Auth() {
           <input type="email" placeholder="Email" />
           <label>Password</label>
           <input type="password" placeholder="Password" />
-          <button>Login</button>
+          <button className="auth-button">Login</button>
           <p>Don't have an account? <button className="toggle-button" onClick={toggleForm}>Sign Up</button></p>
         </div>
       ) : (
@@ -33,7 +33,7 @@ export default function Auth() {
           <input type="email" placeholder="Email" />
           <label>Password</label>
           <input type="password" placeholder="Password" />
-          <button>Create Account</button>
+          <button className="auth-button">Create Account</button>
           <p>Already have an account? <button className="toggle-button" onClick={toggleForm}>Login</button></p>
         </div>
       )}

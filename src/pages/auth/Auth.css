@@ -1,60 +1,89 @@
 .auth-container {
-  margin-top: 60px;
-  padding: 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
+  background: url('../../assets/images/signup_img.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 .form-section {
-  width: 100%;
-  max-width: 400px;
-  background-color: #f9f9f9;
+  background: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
 }
 
-label {
-  margin: 10px 0 5px;
+.auth-container h1,
+.auth-container h3 {
+  text-align: center;
+  color: #333;
 }
 
-input, textarea, .auth-container button {
+.auth-container label {
+  display: block;
+  margin: 15px 0 5px;
+  color: #555;
+}
+
+.auth-container input {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
-.auth-container button {
-  background-color: #007bff;
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.auth-container button:hover {
-  background-color: #0056b3;
+.auth-button:hover {
+  background-color: #0056b3; 
 }
 
 .social-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  width: 100%;  
+  padding: 10px; 
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  margin-bottom: 10px; 
 }
 
-.social-button:hover {
-  background-color: #e0e0e0;
+.social-button:first-child {
+  background-color: #db4437; 
+}
+
+.social-button:last-child {
+  background-color: #4267B2;
 }
 
 .toggle-button {
   background: none;
   border: none;
-  
+  color: #007bff;
   cursor: pointer;
+}
+
+.toggle-button:hover {
+  text-decoration: underline;
+}
+
+.auth-container p {
+  text-align: center;
+  color: #777;
 }

@@ -1,8 +1,8 @@
 import Navbar from './components/navbar/Navbar.jsx';
-import Hero from './components/hero/Hero.jsx';
 import Contact from './pages/contact/Contact.jsx';
 import About from './pages/about/About.jsx'
 import Auth from './pages/auth/Auth.jsx';
+import Home from './pages/Home/Home.jsx'
 import './App.css';
 import Content from './components/Dashboard/content/Content.jsx';
 import Sidebar from './components/Dashboard/sidebar/Sidebar.jsx';
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Hero />,
+        element: <Home />,
       },
       {
         path: "/about",

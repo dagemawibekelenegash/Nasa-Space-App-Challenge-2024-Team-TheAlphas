@@ -14,8 +14,10 @@
 }
 
 .navbar img {
-  height: 50px; 
+  margin-top: 20px;
+  height: 170px; 
   width: auto; 
+  border-radius: 60px;
 }
 
 .navlink {

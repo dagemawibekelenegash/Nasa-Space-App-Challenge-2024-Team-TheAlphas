@@ -1,4 +1,4 @@
-import logo from '../../assets/images/woow.svg'
+import logo from '../../assets/images/output.png'
 import { Outlet, Link } from 'react-router-dom' 
 import './Navbar.css'
 

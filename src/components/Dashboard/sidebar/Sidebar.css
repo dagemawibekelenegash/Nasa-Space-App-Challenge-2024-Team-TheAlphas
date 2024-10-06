@@ -1,0 +1,26 @@
+.sidebar {
+    width: 250px; /* Set width of sidebar */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px; /* Padding around sidebar content */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px; /* Margin below header */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  .sidebar li {
+    padding: 10px; /* Padding around each list item */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+  }
+  
+  .sidebar li:hover {
+    background-color: #e0e0e0; /* Highlight on hover */
+  }
+  

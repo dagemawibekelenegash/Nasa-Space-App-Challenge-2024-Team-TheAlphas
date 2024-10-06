@@ -1,8 +1,28 @@
-import React from 'react';
+// src/components/Dashboard/content/Content.jsx
+import React, { useState } from "react";
+import "./Content.css"; // CSS for styling the content
+import Sidebar from "../sidebar/Sidebar"; // Path to Sidebar component
+
 export default function Content() {
+  const [activeSection, setActiveSection] = useState("overview"); // Track active section
+
+  const renderContent = () => {
+    switch (activeSection) {
+      case "overview":
+        return <div className="dashboard-section">Farm Overview Content</div>;
+      case "crop":
+        return <div className="dashboard-section">Crop Planning Assistant Content</div>;
+      case "water":
+        return <div className="dashboard-section">Water Resource Analyzer Content</div>;
+      default:
+        return null; // Return nothing for unrecognized section
+    }
+  };
+
   return (
-    <div className="content">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse earum eligendi quisquam harum facilis exercitationem nemo hic dolorum! Error, aut ipsa a maxime voluptatibus tenetur excepturi ipsam, libero distinctio commodi, vel eum magni officia ab? Ad tempore, numquam, provident nam cum neque hic, amet facere nesciunt odit tempora eveniet.</p>
+    <div className="content-container">
+      <Sidebar setActiveSection={setActiveSection} />
+      <div className="content">{renderContent()}</div>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.content-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .content {
+    flex-grow: 1; /* Allow content to take remaining space */
+    padding: 20px; /* Padding around content */
+  }
+  
+  .dashboard-section {
+    border: 1px solid #ccc; /* Optional border for each section */
+    padding: 15px; /* Padding inside each section */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background for content */
+  }
+  

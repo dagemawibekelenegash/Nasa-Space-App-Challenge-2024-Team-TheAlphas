@@ -73,7 +73,7 @@ export default function About() {
           </div>
           <div className="about-team-member">
             <img src={team4} alt="Team Member 4" />
-            <h3>Biruk Abza Geremew</h3>
+            <h3>Biruk Geremew Abza</h3>
             <p>Data Analyst, Data Collection Specialist</p>
           </div>
           <div className="about-team-member">
